@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+</head>
+<body>
+    <h2>Thank You for ordering on Zomato</h2>
+    <h3>Enter your details & address</h3>
+    <form action="/paymentMethod.html">
+        <div>
+            <label for="name">Full Name :</label>
+            <input type="text" placeholder="Enter your full name" id="name">
+        </div><br>
+        <div>
+            <label for="mobile">Mobile Number :</label>
+            <input type="tel" id="mobile" placeholder="+91-xxxxx-xxxxx" maxlength="10"> 
+        </div><br>
+        <div>
+            Gender :
+            <input type="radio" id="male" name="gender"> <label for="male">Male</label> 
+            <input type="radio" name="gender" id="female"> <label for="female">Female</label> 
+        </div><br>
+        <div>
+            Delivery <label for="date">Date</label> and <label for="time">Time</label>
+            <input type="date" id="date">
+            <input type="time" id="time">
+        </div><br>
+        <button type="submit">Submit</button>
+    </form>
+    
+</body>
+</html>
